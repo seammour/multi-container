@@ -22,7 +22,6 @@ after_success:
     - docker push ammour76/multi-container-worker
 
 deploy:
-  edge: true
   provider: elasticbeanstalk
   region: us-east-2
   app: multi-container
