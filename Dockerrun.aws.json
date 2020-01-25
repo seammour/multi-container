@@ -34,7 +34,7 @@
                     "containerPort": 80
                 }
             ],
-            "link": ["client", "server"]
+            "links": ["client", "server"]
         }
     ]
 }
